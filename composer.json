@@ -1,0 +1,31 @@
+{
+    "name": "dms-org/library.metadata",
+    "description": "The entity metadata helper library for the DMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elliot Levin",
+            "email": "elliotlevin@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Dms\\Library\\Metadata\\": "./src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "dms-org/core": "dev-master as 0.8.1",
+        "dms-org/common.structure": "^0.8"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dms\\Library\\Metadata\\Tests\\": "./tests/Tests/",
+            "Dms\\Core\\Tests\\": "./vendor/dms-org/core/tests/Tests/"
+        }
+    },
+    "require-dev": {
+        "dms-org/common.testing": "dev-master"
+    }
+}
