@@ -49,5 +49,10 @@ class TestModuleWithMetadataFields extends CrudModule
                 ->asDefault()
                 ->loadAll();
         });
+
+
+        $module->widget('test')
+            ->label('Test')
+            ->withAction('edit');
     }
 }

@@ -16,7 +16,7 @@
     },
     "require": {
         "php": ">=7.0.0",
-        "dms-org/core": "dev-master as 0.8.1",
+        "dms-org/core": "^0.8.2",
         "dms-org/common.structure": "^0.8"
     },
     "autoload-dev": {
